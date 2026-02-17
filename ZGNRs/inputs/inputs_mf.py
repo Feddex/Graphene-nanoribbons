@@ -11,7 +11,7 @@
 MODE = "single"     # "single" | "sweep_N" | "sweep_U"
 
 # --- single mode ---
-N_SINGLE = 6
+N_SINGLE = 2
 U_SINGLE = 2.7      # eV
 
 # --- sweep over N (fixed U) ---

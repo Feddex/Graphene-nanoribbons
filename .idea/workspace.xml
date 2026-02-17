@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="22f21847-bf36-4538-9d11-80b44b412a51" name="Changes" comment="" />
+    <list default="true" id="22f21847-bf36-4538-9d11-80b44b412a51" name="Changes" comment="Committing the basic structure of the project">
+      <change afterPath="$PROJECT_DIR$/ZGNRs/inputs/inputs_mf_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/inputs/inputs_non_interacting_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/inputs/inputs_tbfit_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/postproc_outputs_spindft/single/Ny2/dft/zgnr_Ny2_M1_scf.gpw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/run_mf_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/run_non_interacting_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/run_spindft_postproc_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/run_spindft_tbfit_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/src/spindft_pretty_plots_core_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/src/spindft_tb_fit_core_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/src/zgnr_mf_nnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZGNRs/src/zgnr_noninteracting_nnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ZGNRs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ZGNRs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZGNRs/inputs/inputs_mf.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZGNRs/inputs/inputs_mf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZGNRs/postproc_outputs_spindft/single/Ny2/logs/zgnr_scf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ZGNRs/postproc_outputs_spindft/single/Ny2/logs/zgnr_scf.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Feddex"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Feddex/Graphene-nanoribbons.git",
+    "accountId": "84812fb2-efd7-4fef-ae8e-b5d175cad10d"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -21,10 +60,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.inputs_mf_nnn.executor": "Run",
+    "Python.inputs_non_interacting_nnn.executor": "Run",
+    "Python.inputs_spindft.executor": "Run",
+    "Python.inputs_tbfit_nnn.executor": "Run",
+    "Python.run_mf_lattice.executor": "Run",
+    "Python.run_mf_nnn.executor": "Run",
+    "Python.run_non_interacting_nnn.executor": "Run",
+    "Python.run_spindft.executor": "Run",
+    "Python.spindft_pretty_plots_core_nnn.executor": "Run",
+    "Python.spindft_tb_fit_core_nnn.executor": "Run",
+    "Python.zgnr_mf_nnn.executor": "Run",
+    "Python.zgnr_noninteracting_nnn.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/feder/PycharmProjects/ZGNRs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\feder\PycharmProjects\ZGNRs" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -40,11 +106,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771361104440</updated>
-      <workItem from="1771361105549" duration="2000" />
+      <workItem from="1771361105549" duration="4579000" />
     </task>
+    <task id="LOCAL-00001" summary="Committing the basic structure of the project">
+      <option name="closed" value="true" />
+      <created>1771361360690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771361360690</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Committing the basic structure of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing the basic structure of the project" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ZGNRs$inputs_spindft.coverage" NAME="inputs_spindft Coverage Results" MODIFIED="1771366064675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs/inputs" />
+    <SUITE FILE_PATH="coverage/ZGNRs$inputs_tbfit_nnn.coverage" NAME="inputs_tbfit_nnn Coverage Results" MODIFIED="1771365314912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs/inputs" />
+    <SUITE FILE_PATH="coverage/ZGNRs$run_spindft.coverage" NAME="run_spindft Coverage Results" MODIFIED="1771366068355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs" />
+    <SUITE FILE_PATH="coverage/ZGNRs$run_mf_lattice.coverage" NAME="run_mf_lattice Coverage Results" MODIFIED="1771366426240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs" />
+    <SUITE FILE_PATH="coverage/ZGNRs$spindft_pretty_plots_core_nnn.coverage" NAME="spindft_pretty_plots_core_nnn Coverage Results" MODIFIED="1771365384450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs/src" />
+    <SUITE FILE_PATH="coverage/ZGNRs$run_mf_nnn.coverage" NAME="run_mf_nnn Coverage Results" MODIFIED="1771366518694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs" />
+    <SUITE FILE_PATH="coverage/ZGNRs$inputs_non_interacting_nnn.coverage" NAME="inputs_non_interacting_nnn Coverage Results" MODIFIED="1771366205243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs/inputs" />
+    <SUITE FILE_PATH="coverage/ZGNRs$zgnr_noninteracting_nnn.coverage" NAME="zgnr_noninteracting_nnn Coverage Results" MODIFIED="1771365049714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs/src" />
+    <SUITE FILE_PATH="coverage/ZGNRs$zgnr_mf_nnn.coverage" NAME="zgnr_mf_nnn Coverage Results" MODIFIED="1771365256318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs/src" />
+    <SUITE FILE_PATH="coverage/ZGNRs$run_non_interacting_nnn.coverage" NAME="run_non_interacting_nnn Coverage Results" MODIFIED="1771366212310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs" />
+    <SUITE FILE_PATH="coverage/ZGNRs$inputs_mf_nnn.coverage" NAME="inputs_mf_nnn Coverage Results" MODIFIED="1771366505800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs/inputs" />
+    <SUITE FILE_PATH="coverage/ZGNRs$spindft_tb_fit_core_nnn.coverage" NAME="spindft_tb_fit_core_nnn Coverage Results" MODIFIED="1771365340741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZGNRs/src" />
   </component>
 </project>
