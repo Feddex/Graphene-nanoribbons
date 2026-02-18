@@ -60,7 +60,7 @@ def compute_tb_central_bands_nnn(
 
     Erel = Eavg - mu
     # central bands extraction by closest to 0 below/above
-    # TODO: this must be improoved since is not working porperly as in the previous cases
+    # TO-DO: this must be improoved since is not working porperly as in the previous cases
     val = np.full(mask.sum(), np.nan)
     con = np.full(mask.sum(), np.nan)
     for i, Ek in enumerate(Erel[mask]):
