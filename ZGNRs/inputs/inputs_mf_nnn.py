@@ -2,16 +2,16 @@
 
 MODE = "single"     # "single" | "sweep_N" | "sweep_U"
 
-# --- single ---
+# --- single
 N_SINGLE = 2
 U_SINGLE = 2.7
 
-# --- sweep over N (fixed U) ---
+# --- sweep over N (fixed U)
 N_MIN = 2
 N_MAX = 8
 U_FIXED_FOR_SWEEP_N = 2.7
 
-# --- sweep over U/t1 (fixed N) ---
+# --- sweep over U/t1 (fixed N)
 N_FIXED_FOR_SWEEP_U = 6
 Umin_over_t1 = 1.0
 Umax_over_t1 = 3.0
@@ -23,11 +23,11 @@ VACUUM = 10.0
 SATURATED = True
 M = 1
 
-# Hoppings
+# Hoppings (NN and NNN)
 t1 = 2.4
-t2 = 0.00     # eV
+t2 = 0.00     #check if hte result is the same as i teh case of absence of NNN
 
-# SCF
+# SCF paramteres
 Nk = 400
 filling = 1.0
 max_iter = 300

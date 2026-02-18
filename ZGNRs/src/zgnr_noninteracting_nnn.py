@@ -90,7 +90,7 @@ def extract_central_bands(E, Ny):
     return E[:, i0], E[:, i1]
 
 # ----------------------------
-# Plot + outputs (mirrors your style)
+# Plots and ouput functions
 # ----------------------------
 def _add_corner_label(ax, text):
     ax.text(

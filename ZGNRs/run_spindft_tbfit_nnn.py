@@ -81,7 +81,7 @@ def fit_one_case(mode: str, Ny: int):
         filling=FILLING, max_iter=MAX_ITER, mix=MIX, tol=TOL,
     )
 
-    # Use DFT strand magnetization proxy from mag_AB_npz (you already have mA/mB per strand)
+    # Use DFT strand magnetization proxy from mag_AB_npz
     mag = np.load(files["mag_AB_npz"], allow_pickle=True)
     mA = np.asarray(mag["mA"], float).ravel()
     mB = np.asarray(mag["mB"], float).ravel()

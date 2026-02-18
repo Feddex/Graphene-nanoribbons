@@ -6,7 +6,7 @@ BASE_OUTDIR = "postproc_outputs_spindft"
 
 # TB solver parameters
 NK_TB_FACTOR = 2          # Nk_tb = NK_TB_FACTOR * Nk_dft
-FILLING = 1.0             # half filling (1 e per site)
+FILLING = 1.0             # half filling
 MAX_ITER = 300
 MIX = 0.10
 TOL = 1e-5
@@ -14,7 +14,7 @@ TOL = 1e-5
 # Fit method
 USE_SCIPY_IF_AVAILABLE = True
 
-# Initial guess (eV)
+# Initial guess
 T0 = 2.7
 U0 = 2.0
 

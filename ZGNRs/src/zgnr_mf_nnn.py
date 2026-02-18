@@ -51,7 +51,7 @@ def _build_V_sigma(dim, sigma, U, m):
     return np.diag(-U * sigma * m.astype(float))
 
 # ----------------------------
-# Solver (spin-resolved like your MF)
+# Solver with spin resolved
 # ----------------------------
 def solve_zgnr_mf_nnn(
     *,
@@ -82,7 +82,7 @@ def solve_zgnr_mf_nnn(
     nelec_per_cell = filling * dim
     nelec_total = int(round(nelec_per_cell * Nk))
 
-    # initial staggered seed on edges (rough heuristic: first/last sites)
+    # initial staggered seed on edges
     m = np.zeros(dim, float)
     m[0] = +m0
     m[-1] = -m0
@@ -143,8 +143,8 @@ def solve_zgnr_mf_nnn(
             break
 
     # For compatibility with your plotting expectations, we expose mA/mB-like arrays:
-    # Here we don’t have explicit A/B indexing from ASE; but your MF lattice postproc expects mA/mB per strand.
-    # So: we provide a strand-averaged profile by grouping atoms by transverse coordinate.
+    # Here we don’t have explicit A/B indexing from ASE; but the MF lattice postproc expects mA/mB per strand.
+    # Here is provided a strand-averaged profile by grouping atoms by transverse coordinate.
     pos = atoms.get_positions()
     x = pos[:, 0]
     # group into Ny strands by sorting x and binning
@@ -176,7 +176,7 @@ def solve_zgnr_mf_nnn(
     )
 
 # ----------------------------
-# DOS + plots + outputs (mirrors your MF style)
+# DOS + plots + outputs
 # ----------------------------
 def compute_dos(result, nE=600, eta=0.05):
     E_flat = np.asarray(result["E"], float).reshape(-1)

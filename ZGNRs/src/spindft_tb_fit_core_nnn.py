@@ -59,7 +59,8 @@ def compute_tb_central_bands_nnn(
     k_plot_tb = (k_pos - k_pos.min()) / (k_pos.max() - k_pos.min() + 1e-14)
 
     Erel = Eavg - mu
-    # central bands by closest to 0 below/above
+    # central bands extraction by closest to 0 below/above
+    # TODO: this must be improoved since is not working porperly as in the previous cases
     val = np.full(mask.sum(), np.nan)
     con = np.full(mask.sum(), np.nan)
     for i, Ek in enumerate(Erel[mask]):
